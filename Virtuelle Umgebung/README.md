@@ -34,9 +34,26 @@ Das MySQL User Interface ist via [http://localhost:8080/adminer.php](http://loca
 
 ### Tests
 
-* keine
+* Kontrolle ob lokale READ.me Änderungen übernommen wurde auf Github & umgekehrt
+* Kontrolle ob die beiden VMs laufen --> vagrant status
+* Kontrolle man Das MySQL User Interface via http://localhost:8080/adminer.php erreichbar ist.
 
 ### Sicherheit
 
 * Datenbank Server bzw. MySQL ist mit Password geschützt.
 * Der Web Server ist offen und mittels ungeschütztem HTTP Protokoll erreichbar.
+* SSL Zertifikat wird verwendet
+
+
+### Vorgehensweise
+1. Am Anfang haben wir den die Dateien vagrantfile, read.me & db.sh vom mmdb Ordner in unserem LB2 Ordner kopiert.
+
+2. Mit dem Befehl git add* kann man über die Kommandozeile Gitbash die Files sehen.
+
+3. Mit commit -a machen wir einen commit
+
+4. Danach wieder pushen
+
+5. Nun sind die beiden Maschinen da, also web und db.
+
+6. Mit dem Befehl " Vagrant up" starten wir die VM
