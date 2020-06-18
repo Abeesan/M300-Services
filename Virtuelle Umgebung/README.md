@@ -57,3 +57,7 @@ Das MySQL User Interface ist via [http://localhost:8080/adminer.php](http://loca
 5. Nun sind die beiden Maschinen da, also web und db.
 
 6. Mit dem Befehl " Vagrant up" starten wir die VM
+
+
+### Reflexion
+Der Arbeitsauftrag war aus meiner Sicht sehr anspruchsvoll. Ich habe vorher noch nie mit Github oder anderen Repository gearbeitet. Darum hatte ich auch Anfang bisschen Startprobleme, jedoch konnte ich mithilfe von Herrn Calisto und anderen Anleitung viele Punkte erledigen und vorallem mir ein Basiswissen zu Github erarbeitet.
